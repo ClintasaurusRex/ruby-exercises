@@ -26,11 +26,11 @@ end
 def downcase(string)
   # downcase all letters in the string
   string.downcase
+end
 
 def empty_string(string)
   # return true if the string is empty
   string.empty?
-
 end
 
 def string_length(string)
