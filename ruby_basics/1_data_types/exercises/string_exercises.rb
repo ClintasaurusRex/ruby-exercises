@@ -1,11 +1,11 @@
 def concatenate_example(string)
   # use concatenation to format the result to be "Classic <string>"
-  "Classic " << string
+  "Classic " << string 
 end
 
 def concatenate(string)
   # use concatenation to format the result to be "Hello <string>!"
-  "Hello " << string
+  "Hello " << string << "!"
 end
 
 def substrings(word)
@@ -15,17 +15,17 @@ end
 
 def capitalize(word)
   # capitalize the first letter of the word
-  word.capitalize()
+  word.capitalize
 end
 
 def uppercase(string)
   # uppercase all letters in the string
-  string.upcase()
+  string.upcase
 end
 
 def downcase(string)
   # downcase all letters in the string
-  string.downcase()
+  string.downcase
 
 def empty_string(string)
   # return true if the string is empty
@@ -35,12 +35,12 @@ end
 
 def string_length(string)
   # return the length of the string
-  string.length()
+  string.length
 end
 
 def reverse(string)
   # return the same string, with all of its characters reversed
-  string.reverse()
+  string.reverse
 end
 
 def space_remover(string)
